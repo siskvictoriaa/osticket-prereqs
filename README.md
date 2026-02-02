@@ -49,7 +49,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="376" height="187" alt="image" src="https://github.com/user-attachments/assets/240f3240-22c8-4b53-a16a-79395e72746f" />
+<img width="1374" height="775" alt="image" src="https://github.com/user-attachments/assets/10f1c187-d860-4eba-b597-64e91ac98f0d" />
+<img width="1192" height="704" alt="image" src="https://github.com/user-attachments/assets/42cbb2c0-0b5e-4a89-a7de-61368862e6b1" />
+<img width="1197" height="728" alt="image" src="https://github.com/user-attachments/assets/4586cc7e-d521-4904-898e-b083daba1f29" />
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
