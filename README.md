@@ -32,6 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>
 <img width="2622" height="1319" alt="image" src="https://github.com/user-attachments/assets/c154a19a-2d4d-4c74-8c29-366958493624" />
+<img width="1006" height="608" alt="image" src="https://github.com/user-attachments/assets/77f80a71-e442-4f5f-bd69-c9832f40d91a" />
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -39,7 +40,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 <p>
-<img width="1006" height="608" alt="image" src="https://github.com/user-attachments/assets/77f80a71-e442-4f5f-bd69-c9832f40d91a" />
+<img width="985" height="430" alt="image" src="https://github.com/user-attachments/assets/1f0eaf09-1679-4d6f-abaf-2322a0f49ab2" />
+<img width="1421" height="846" alt="image" src="https://github.com/user-attachments/assets/1fec6b73-10e9-4d7b-86b5-4e27f48f0483" />
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
