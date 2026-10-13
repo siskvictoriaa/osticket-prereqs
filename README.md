@@ -70,6 +70,6 @@ To begin the osTicket deployment, create a virtual machine in Azure named ostick
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After connecting to the virtual machine, download the latest version of osTicket from the official osTicket website and save the installation package to the VM. Once the download is complete, locate the ZIP file, right-click it, and select Extract All to unzip the contents to a convenient location, such as the Desktop or Downloads folder. After the extraction process is finished, open the extracted folder and verify that all osTicket files are present. These files can then be copied to the IIS web server directory, preparing the application for configuration and installation. Unzipping the package ensures that all required files and folders are accessible and ready for deployment.
 </p>
 <br />
