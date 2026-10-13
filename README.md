@@ -22,11 +22,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+Web server installed (Apache/IIS/LiteSpeed)
+  PHP8.2+ installed
+  MySQL/MariaDB installed and running
+  Empty database created
+  Database user with full privileges
+  osTicket installation package downloaded and extracted
+ Access to a web browser to run the installer turn1search1
 
 <h2>Installation Steps</h2>
 
