@@ -85,5 +85,23 @@ With the web server environment configured, copy the extracted osTicket files in
 When you first browse to the osTicket installation page, you may notice that several required PHP extensions are listed as disabled. These extensions are necessary for important osTicket functions, including email integration, language support, and application performance. To enable them, return to IIS Manager and navigate to Sites > Default Web Site > osTicket. Open PHP Manager by double-clicking its icon, and then select Enable or disable an extension. From the list of available extensions, enable php_imap.dll, php_intl.dll, and php_opcache.dll. The php_imap.dll extension allows osTicket to retrieve and process emails, php_intl.dll provides internationalization and localization support, and php_opcache.dll improves performance by caching compiled PHP scripts. After enabling these extensions, return to the osTicket installation page in your browser and refresh the site. The installation requirements screen should now reflect the changes, showing that the previously missing extensions have been enabled and that the system is ready to continue with the installation process.
 
 To allow osTicket to create and update its configuration file during installation, you must modify the permissions on ost-config.php. Navigate to the include folder within the osTicket installation directory, right-click ost-config.php, and select Properties. Open the Security tab, click Advanced, and choose Disable inheritance. When prompted, select Remove all inherited permissions from this object to clear the existing permission entries. Next, click Add, select Choose a principal, enter Everyone, and grant Full Control permissions. Apply the changes and click OK to save them. These permissions allow the osTicket installation wizard to write the necessary configuration settings to the file. After the installation is completed, it is recommended to remove the Everyone permission and restore more restrictive permissions to improve security.
+
+After enabling the required PHP extensions and assigning the necessary permissions to ost-config.php, return to the osTicket installation page in your browser and click Continue. During the setup process, provide a name for your help desk and enter a default email address that will be used to receive communications from customers. These settings establish the basic identity of your ticketing system and can be modified later if needed.
+
+Next, install HeidiSQL from the osTicket installation files provided for the lab. Once installed, open HeidiSQL and create a new session using the MySQL credentials root as the username and root as the password. Connect to the session and create a new database named osTicket. This database will store all ticket information, user accounts, and system configuration data required by the application.
+
+Return to the osTicket setup page and complete the database configuration section. Enter osTicket as the MySQL database name, root as the MySQL username, and root as the MySQL password. Click Install Now! to begin the installation process. If all components have been configured correctly, osTicket will install successfully without any errors and create the necessary database tables automatically.
+
+Once installation is complete, you can access the administrator portal by browsing to:
+
+Plain Text
+http://localhost/osTicket/scp/login.php
+
+This page allows help desk staff and administrators to sign in and manage tickets. End users can submit and view tickets through the customer portal located at:
+
+Plain Text
+http://localhost/osTicket/
+
+As a final cleanup step, delete the C:\inetpub\wwwroot\osTicket\setup directory to prevent the installation wizard from being run again. Then secure the configuration file by navigating to C:\inetpub\wwwroot\osTicket\include\ost-config.php and changing its permissions to Read Only. Removing installation files and restricting access to the configuration file helps protect the osTicket environment from unauthorized changes and improves overall security.
 </p>
 <br />
