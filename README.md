@@ -42,7 +42,7 @@ Web server installed (Apache/IIS/LiteSpeed)
 <img width="1006" height="608" alt="image" src="https://github.com/user-attachments/assets/77f80a71-e442-4f5f-bd69-c9832f40d91a" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To begin the osTicket deployment, create a virtual machine in Azure named osticket-vm. Use Windows 11 as the operating system and configure the administrator account with the username labuser and password osTicketPassword1!. Ensure that RDP (port 3389) is enabled for remote access, along with HTTP (port 80) and HTTPS (port 443) to support web access to the osTicket application. Once the VM is deployed, connect to it using Remote Desktop and proceed with installing IIS, PHP, MySQL, and the osTicket software.
 </p>
 <br />
 
