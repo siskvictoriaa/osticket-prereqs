@@ -24,10 +24,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 Web server installed (Apache/IIS/LiteSpeed)
   PHP8.2+ installed
+  
   MySQL/MariaDB installed and running
+  
   Empty database created
+  
   Database user with full privileges
+  
   osTicket installation package downloaded and extracted
+  
  Access to a web browser to run the installer turn1search1
 
 <h2>Installation Steps</h2>
